@@ -72,7 +72,7 @@ void CSelector_DeSelect(CSelector* Selector)
 // Draw the blue box on the current position, with the offsets in mind
 void CSelector_Draw(CSelector* Selector)
 {
-    bufferDrawImageTransparent(fb,Selector->CurrentPoint.X * TileWidth+5 + Selector->CurrentPoint.X ,
+    bufferDrawImageTransparent(fb,Selector->CurrentPoint.X * TileWidth+5,
         Selector->CurrentPoint.Y * TileHeight+5,cursor_data,cursor_width,cursor_height,false,false,false,COLOR_TRANSPARENT); 
 }
 

@@ -62,7 +62,7 @@ void CBlock_Draw(CBlock* Block)
     int Srcw = TileWidth;
     int Srch = TileHeight;
 
-    int Dstx = Block->PlayFieldX * TileWidth+5 + Block->PlayFieldX;
+    int Dstx = Block->PlayFieldX * TileWidth+5;
     int Dsty = Block->PlayFieldY * TileHeight+5;
     int Dstw = TileWidth;
     int Dsth = TileHeight;
