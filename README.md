@@ -1,9 +1,9 @@
-# Znax Tufty2350
+# Znax Pimoroni Tufty 2350
 ![DownloadCountTotal](https://img.shields.io/github/downloads/joyrider3774/znax_tufty2350/total?label=total%20downloads&style=plastic) ![DownloadCountLatest](https://img.shields.io/github/downloads/joyrider3774/znax_tufty2350/latest/total?style=plastic) ![LatestVersion](https://img.shields.io/github/v/tag/joyrider3774/znax_tufty2350?label=Latest%20version&style=plastic) ![License](https://img.shields.io/github/license/joyrider3774/znax_tufty2350?style=plastic)
 
 Znax is a remake of a game by Nick Kouvaris. It is a sort of puzzle / arcade game where you as the player need to select 4 blocks of the same color as the corners of rectangles as big as you can. 
 
-## Tufty2350 Game Features / changes:
+## Tufty 2350 Game Features / changes:
 - Optimized Game time, games take less time than in original gp2x game
 - Relative Timer game mode tweaks, you gain less time for clearing blocks compared to original gp2x game, this prevents endless games
 - Removed Skin support compared to original gp2x game
