@@ -7,6 +7,7 @@
 #include "common.h"
 #include "defines.h"
 #include "glcdfont.h"
+#include "EEPROM.h"
 
 
 #define SAVE_MAGIC 0xDADA
@@ -28,8 +29,8 @@ uint8_t calcCRC(void *data, size_t len) {
 
 void LoadHighScores()
 {
-    //EEPROM.begin(sizeof(SaveData));
-    //EEPROM.get(0, saveData);
+    EEPROM.begin(sizeof(SaveData));
+    EEPROM.get(0, saveData);
     //needs to be -uint8t size because of crc not included in calculation
     uint8_t crc = calcCRC(&saveData, sizeof(SaveData) - sizeof(uint8_t));
     if (saveData.magic != SAVE_MAGIC || saveData.crc != crc) 
@@ -50,9 +51,9 @@ void LoadHighScores()
 void SaveHighScores()
 {
     saveData.crc = calcCRC(&saveData, sizeof(SaveData) - sizeof(uint8_t));
-    //EEPROM.begin(sizeof(SaveData));
-    //EEPROM.put(0, saveData);
-    //bool ok = EEPROM.commit();
+    EEPROM.begin(sizeof(SaveData));
+    EEPROM.put(0, saveData);
+    bool ok = EEPROM.commit();
 }
 
 void DrawStatusBar()
