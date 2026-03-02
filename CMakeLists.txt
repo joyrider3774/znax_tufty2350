@@ -48,7 +48,7 @@ file(GLOB HEADERS
 add_executable(znax ${SOURCES} ${HEADERS})
 
 pico_set_program_name(znax "znax")
-pico_set_program_version(znax "1.0")
+pico_set_program_version(znax "1.1")
 
 # Modify the below lines to enable/disable output over UART/USB
 pico_enable_stdio_uart(znax 0)
