@@ -35,4 +35,4 @@ In this mode you will gain extra time for deleting blocks and points added, you 
 Game Remake Created by Willems Davy, Original game by Nick Kouvaris. The original flash game is still available on [wayback machine](https://web.archive.org/web/20090220141735/http://lightforce.freestuff.gr/znax.php)
 
 ### Graphics
-All Graphics were made by Willems Davy initially for the gp2x version in jasc paint shop pro 7. The graphics have been adapted for the espboy handheld resolution using gimp.
+All Graphics were made by Willems Davy initially for the gp2x version in jasc paint shop pro 7. The graphics have been adapted for the tufty2350 badgeware resolution using gimp.
